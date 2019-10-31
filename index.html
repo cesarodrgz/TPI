@@ -1,0 +1,2719 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarea TPI 3er Computo</title>
+	<link href="estilos.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+	<div class="menu">
+		<ul class="menu-fixed">
+			<li><a href="#home">Inicio</a></li>
+			<li><a href="#cuerpo">¿Qué es HTML?</a></li>
+			<li><a href="#ET5">Etiquetas HTML5</a></li>
+			<li><a href="#ETH">Etiquetas HTML</a></li>
+		</ul>
+	</div>
+	<h1 id="none2">BIENVENIDOS</h1>
+	<h3 style="background-color: #ADD8E6; text-align: center;">
+		Desarrollado por: Julio César Chica Rodríguez - CR14029<br>
+		Materia: Técnicas de Programación para Internet. <br>
+		Docente: Ing. Vanessa Márquez
+	</h3>
+	<header id="home">LISTADO DE ETIQUETAS DE HTML Y HTML5</header> <br> <br>
+	<form>
+		<fieldset id="cuerpo"><legend>¿QUÉ ES HTML?</legend>
+			<img src="img/ghtml.jpg" id="img1">
+			<p>
+				Actualmente la mayoría de las personas han visto cientos de páginas web pero muchos se preguntarán ¿Qué es HTML? ¿Para qué me sirve? ¿Cómo funciona? ¿Es difícil escribir en HTML? ¿Dónde puedo escribir HTML? Y otras preguntas como estas serán respondidas a continuación.
+
+				Si buscas en GOOGLE o en cualquier otro buscador la definición de HTML, probablemente encontrarás está:
+
+				“HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la siglas que corresponden a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto”. 
+
+				No obstante, este tipo de definiciones no nos dice mucho porque la definición es técnica. Para algunas personas al leer esto, piensan que HTML incluye el diseño gráfico de las páginas web, sin embargo, eso no es cierto ya que HTML sólo sirve para indicar como va ordenado el contenido de una página web. Esto lo hace por medio de las marcas de hipertexto las cuales son etiquetas conocidas en inglés como tags.
+
+				Hasta el momento ya tenemos una idea sobre lo que hace HTML pero aún no sabemos cómo funcionan las etiquetas. Para esto vamos a imaginar que tienen que hacer un ensayo sobre algún tema, consideraremos que el ensayo será nuestra página web y la manera en la que va ordenado un ensayo es por un título, la introducción, el desarrollo y la conclusión, si se tiene en cuenta que esto nos dice cómo debe ir nuestro ensayo podemos considerar que éstas serían las etiquetas porque nos dicen la estructura que lleva, es decir, la forma en que se acomoda el texto en nuestro ensayo. Cabe mencionar que las etiquetas no sólo sirven para ordenar nuestro contenido sino que ayudan a los buscadores como Google, Yahoo search y muchos otros a encontrar la información por medio de las etiquetas.
+			</p>
+		</fieldset>
+	</form> <br> <br>
+	<h1 id="ET5">20 ETIQUETAS DE HTML5</h1>
+	<img src="img/html5.jpg" id="img2">
+	<br><br><br><br>
+	<img src="img/abc/a.jpg" id="img2">
+		<form>
+			<fieldset class="html5">
+				<p><b>1. Etiqueta: < article ></b><br> <br>
+				Define un articulo. <br>
+				Atributos: class, dir, style y todos los atributos globales de HTML5. <br><br>
+				Por ejemplo: <br>
+				< article style="font-family: sans-serif; > Articulo #250 del periodico estudianil < /article > <br><br>
+				Resultado:
+				<article style="font-family: sans-serif;"> Articulo #250 del periodico estudianil </article>
+				</p>
+		</fieldset>
+	</form>	
+	<br>
+	<form>
+		<fieldset class="html5">
+			<p><b>2. Etiqueta: < aside ></b><br> <br>
+					Define el contenido lateral del contenido de una página <br>
+					Atributos: class, dir, style y todos los atributos globales de HTML5. <br><br>
+					Por ejemplo: <br>
+					< aside style="float: left;"> <br>
+						< h2> ASIDE < /h2><br>
+							< ul ><br>
+								< section ></ section><br>
+								< section ></ section><br>
+							< /ul ><br>
+					</ aside>
+				 	<br>
+					Resultado:
+					<aside style="float: left;">
+						<h2>ASIDE</h2>
+							<ul>
+								<section></section>
+								<section></section>
+							</ul>
+					</aside>
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html5">
+			<p><b>3. Etiqueta: < audio ></b><br><br>
+					Define contenido con sonido
+					 <br>
+					Atributos: src*, preload, mediagroup, autoplay, loop, muted y controls <br>
+					*OBLIGATORIO <br><br>
+					Por ejemplo: <br>
+					< audio src="audio/audio.mp3" preload="none" controls="">< /audio>
+					<br><br>
+					Resultado: <br>
+					<audio src="audio/audio.mp3" preload="none" controls=""></audio>
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/b.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p> <b>4. Etiqueta: < bdi ></b><br> <br>
+					Mantiene un formato de otro idioma en una manera entendible para el navegador y usuario<br>
+					Atributos: El único que contiene es dir pero si se usa antes no es heredable <br><br>
+					Por ejemplo: <br>
+					Encontre a unos amigos árabes y les dije < bdi>مرحبا اصدقاء كيف حالك</ bdi>. Que significa: Hola amigos, ¿cómo estan? 
+				 	<br> <br>
+					Resultado: <br>
+					Encontre a unos amigos árabes y les dije <bdi>مرحبا اصدقاء كيف حالك</bdi>. Que significa: Hola amigos, ¿cómo estan? 
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/c.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p><b>5. Etiqueta: < canvas ></b><br> <br>
+					Usada para dibujar gráficos, por script, en el aire. (con JavaScript)<br>
+					Atributos: width y height <br><br>
+					Por ejemplo: <br>
+					< canvas id="micanva" width="250" height="100">TU NAVEGADOR NO SOPORTA CANVA< /canvas> <br>
+					< script type="text/javascript"; charset="utf-8"> <br>
+						var canvas =  document.getElementById('micanva'); <br>
+						var ctx = canvas.getContext("2d"); <br>
+						ctx.fillRect(150,0,100,100); <br>
+					< /script> 
+				 	<br> <br>
+					Resultado: <br>
+					<canvas id="micanva2" width="250" height="100">TU NAVEGADOR NO SOPORTA CANVA</canvas>
+					<script type="text/javascript" charset="utf-8">
+						var canvas =  document.getElementById('micanva2');
+						var ctx = canvas.getContext("2d");
+						ctx.fillRect(150,0,100,100);
+					</script>
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/d.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p><b>6. Etiqueta: < datalist ></b> <br> <br>
+					Definimos una lista de opciones, esta se mostrará al dar doble click sobre el label o mostrara sugerencias<br>
+					si existe un valor casi igual al de la lista, por ejemplo si se presiona una letra "e" esta mostrara las <br> 
+					sugerencias con la letra "e". <br>
+					Atributos: Id, Option (aunque este es una etiqueta propia del datalist), AccesKey, etc. <br><br>
+					Por ejemplo: <br>
+					< label> <br>
+						Eliga un navegador de la lista: <br>
+						< input list="navegadores" name="MiNavegador" /> <br>
+					</ label> <br>
+					< datalist id="navegadores"> <br>
+  						< option value="Chrome"> <br>
+  						< option value="Firefox"> <br>
+  						< option value="Internet Explorer"> <br>
+  						< option value="Opera"> <br>
+  						< option value="Safari"> <br>
+  						< option value="Microsoft Edge"> <br>
+						< /datalist>
+				 	<br> <br>
+					Resultado: <br>
+					<label>
+						Eliga un navegador de la lista:
+						<input list="navegadores" name="MiNavegador" />
+					</label>
+					<datalist id="navegadores">
+  						<option value="Chrome">
+  						<option value="Firefox">
+  						<option value="Internet Explorer">
+  						<option value="Opera">
+  						<option value="Safari">
+  						<option value="Microsoft Edge">
+						</datalist>
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html5">
+			<p><b>7. Etiqueta: < datails ></b> <br> <br>
+					Define detalles adicionales que el usuario puede ver o esconder.<br>
+					Atributos: Id, Class, ContextMenu, dir, básicamente la mayoría de HTML. <br>
+					Nota: No posee atributos principales como etiqueta.
+					<br><br>
+					Por ejemplo: <br>
+					< details> <br>
+  						< summary>Click para mas información< /summary> <br>
+  						< p> <br>
+  							< b>Creador: <br>
+  							Julio César Chica Rodríguez <br>
+  							Estudiante de la carrera de: <br>
+  							Ing. de Sistemas Informaticos. < /b> <br>
+  						< /p> <br>
+					< /details>
+				 	<br> <br>
+					Resultado: <br>
+					<details>
+  						<summary>Click para mas información</summary>
+  						<p>
+  							<b>Creador:
+  							Julio César Chica Rodríguez <br>
+  							Estudiante de la carrera de: <br>
+  							Ing. de Sistemas Informaticos. </b>
+  						</p>
+					</details>
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html5">
+			<p><b>8. Etiqueta: < dialog ></b> <br> <br>
+					Es un cuadro de dialogo, principalmente se usa en el evento OnClick de un botón.<br>
+					pero puede usarse para mostrar simplemente en un cuadro información necesaria. <br>
+					Atributos: Su principal atributo es el OPEN y puede usar los mismos que HTML<br>
+					Como: Id, class, style, etc.
+					<br><br>
+					Por ejemplo: <br>
+					< dialog open>  <br>
+						< h2>Encabezado del dialogo< /h2> <br>
+  						< p>¡Gracias por visitarnos!< /p> <br>
+					< /dialog>
+				 	<br> <br>
+					Resultado: <br>
+					<dialog open>
+						<h2>Encabezado del dialogo</h2>
+  						<p>¡Gracias por visitarnos!</p>
+					</dialog>
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/e.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p><b>9. Etiqueta: < embed ></b> <br> <br>
+					Es un cuadro utilizado como contenedor para contenido multimedia externo de la aplicación<br> <br>
+					Atributos: Sus principales atributos son: src, type, width, height<br>
+					<br>
+					Por ejemplo: <br>
+					< embed height="100" width="100" > <br>
+						< iframe src="https://www.youtube.com/embed/cqMfPS8jPys" frameborder="0" allow="accelerometer; autoplay; <br>encrypted-media; gyroscope; picture-in-picture" allowfullscreen></ iframe> <br>
+					< /embed>
+				 	<br> <br>
+					Resultado: <br>
+					<embed width="250" height="250">
+						<iframe src="https://www.youtube.com/embed/cqMfPS8jPys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</embed>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/f.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p><b>10. Etiqueta: < figcaption ></b> <br> <br>
+					Define un título para una figura < figure >.<br>
+					Atributos: No posee ninguno principal, pero pueden usarse los atributos globales de HTML<br>
+					<br>
+					Por ejemplo: <br>
+					< h2>Tablas de verdad< /h2> <br>
+					< figure style="float: right"> <br>
+  					< table class="egt"> <br>
+    					< tr> <br>
+      						< th class="tac" style="width: 3em">p< /th> <br>
+      						< th class="tac" style="width: 3em">¬p< /th> <br>
+    					< /tr> <br>
+    					< tr> <br>
+      						< td class="tac">T< /th> <br>
+      						< td class="tac">F< /td> <br>
+    					< /tr> <br>
+    					< tr> <br>
+      						< td class="tac">F< /td> <br>
+      						< td class="tac">T< /td> <br>
+    					< /tr> <br>
+  					< /table><br>
+  					<b>< figcaption>Tabla de negación lógica< /figcaption></b> <br>
+					< /figure><br>
+					< p>Una tabla de verdad, o tabla de valores de verdad, es una tabla que muestra el valor de verdad de una proposición compuesta, para cada combinación de verdad que se pueda asignar. Fue desarrollada por Charles Sanders Peirce por los años 1880, pero el formato más popular es el que introdujo Ludwig Wittgenstein en su Tractatus logico-philosophicus, publicado en 1921.< /p><br>
+					< p>La negación es un operador que se ejecuta, sobre un único valor de verdad, devolviendo el valor contradictorio de la proposición considerada.< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<h2>Tablas de verdad</h2>
+					<figure style="float: right">
+  					<table class="egt">
+    					<tr>
+      						<th class="tac" style="width: 3em">p</th>
+      						<th class="tac" style="width: 3em">¬p</th>
+    					</tr>
+    					<tr>
+      						<td class="tac">T</th>
+      						<td class="tac">F</td>
+    					</tr>
+    					<tr>
+      						<td class="tac">F</td>
+      						<td class="tac">T</td>
+    					</tr>
+  					</table>
+  					<figcaption>Tabla de negación lógica</figcaption>
+					</figure>
+					<p>Una tabla de verdad, o tabla de valores de verdad, es una tabla que muestra el valor de verdad de una proposición compuesta, para cada combinación de verdad que se pueda asignar. Fue desarrollada por Charles Sanders Peirce por los años 1880, pero el formato más popular es el que introdujo Ludwig Wittgenstein en su Tractatus logico-philosophicus, publicado en 1921.</p>
+					<p>La negación es un operador que se ejecuta, sobre un único valor de verdad, devolviendo el valor contradictorio de la proposición considerada.</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html5">
+			<p><b>11. Etiqueta: < figure ></b> <br> <br>
+					Define un título para una figura < figure > elemento <br>
+					Atributos: No posee ninguno principal, pero pueden usarse los atributos globales de HTML<br>
+					<br>
+					Por ejemplo: Usamos solo el fragmento de codigo necesario del anterior ejemplo.<br>
+					< figure style="float: left;"> <br>
+  					< table class="egt"> <br>
+    					< tr> <br>
+      						< th class="tac" style="width: 3em">p< /th> <br>
+      						< th class="tac" style="width: 3em">¬p< /th> <br>
+    					< /tr> <br>
+    					< tr> <br>
+      						< td class="tac">T< /th> <br>
+      						< td class="tac">F< /td> <br>
+    					< /tr> <br>
+    					< tr> <br>
+      						< td class="tac">F< /td><br>
+      						< td class="tac">T< /td><br>
+    					< /tr> <br>
+  					< /table><br>
+  					< figcaption>Tabla de negación lógica</ figcaption><br>
+					< /figure><br>
+				 	<br> <br>
+					Resultado: <br>
+					<figure style="float: left;">
+  					<table class="egt">
+    					<tr>
+      						<th class="tac" style="width: 3em">p</th>
+      						<th class="tac" style="width: 3em">¬p</th>
+    					</tr>
+    					<tr>
+      						<td class="tac">T</th>
+      						<td class="tac">F</td>
+    					</tr>
+    					<tr>
+      						<td class="tac">F</td>
+      						<td class="tac">T</td>
+    					</tr>
+  					</table>
+  					<figcaption>Tabla de negación lógica</figcaption>
+					</figure>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html5">
+			<p><b>12. Etiqueta: < footer ></b> <br> <br>
+					Define un título para una figura < figure > elemento <br>
+					Atributos: No posee ninguno principal, pero pueden usarse los atributos globales de HTML<br>
+					<br>
+					Por ejemplo:<br>
+					< footer> <br>
+						< p id="texto"> <br>
+								Todos los derechos Reservados <br>
+								Creador: Julio Chica <br>				
+						< /p><br>
+					< /footer>
+				 	<br> <br>
+					Resultado: <br>
+					<footer>
+						<p id="texto">
+								Todos los derechos Reservados
+								Creador: Julio Chica							
+						</p>
+					</footer>
+				</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/g.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/h.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p><b>13. Etiqueta: < header ></b><br> <br>
+					Define un encabezado para un documento o sección <br>
+					Atributos: id, class, style y todos los globales de HTML<br>
+					<br>
+					Por ejemplo:<br>
+				 	<br> <br>
+					Resultado: <br>
+					<section id="ejemploEncabezado">
+						<header class="encabezado">ESTE ES UN ENCABEZADO</header>
+					</section>
+				</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html5">
+			<p><b>14. Etiqueta: < header ></b><br> <br>
+					Define un grupo de encabezados para un documento o sección <br>
+					Atributos: id, class, style y todos los globales de HTML<br>
+				</p>
+					<br>
+					Por ejemplo:<br>
+					< hgroup><br>
+						< h1 id="E1">Encabezado 1< /h1><br>
+						< h2 id="E2">Encabezado 2< /h2><br>
+						< h3 id="E3">Encabezado 3< /h3><br>
+						< h4 id="E4">Encabezado 4< /h4><br>
+						< h5 id="E5">Encabezado 5< /h5><br>
+						< h6 id="E6">Encabezado 6< /h6><br>
+					< /hgroup>
+				 	<br> <br>
+					Resultado: <br>
+					<hgroup>
+						<h1 id="E1">Encabezado 1</h1>
+						<h2 id="E2">Encabezado 2</h2>
+						<h3 id="E3">Encabezado 3</h3>
+						<h4 id="E4">Encabezado 4</h4>
+						<h5 id="E5">Encabezado 5</h5>
+						<h6 id="E6">Encabezado 6</h6>
+					</hgroup>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/i.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/j.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/k.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p> <b>15. Etiqueta: < keygen > </b><br> <br> 
+					Encripta documentacion y la envia mediante el metodo POST a un servidor y guarda otra localmente de donde se envió <br>
+					Atributos: autofocus, disabled, challenge, form, keytype, aname<br>
+					<br>
+					Por ejemplo:<br>
+					< form action="demo_keygen.php" method="get"> <br>
+  							Nombre:< input type="text" name="usr_name" /> <br>
+  							Encriptación: < keygen name="security">< /keygen>  <br>
+  							< input type="submit" /> <br>
+  							< p> <br>
+  								< b> <br>
+  									Nota: No funcionará debido a que ho hay un servidor. <br>
+  								< /b> <br>
+  							< /p> <br>
+						< /form> <br>
+				 	<br> <br>
+					Resultado: <br>
+						<form action="demo_keygen.php" method="get">
+  							Nombre:<input type="text" name="usr_name" /> 
+  							Encriptación: <keygen name="security"></keygen> 
+  							<input type="submit" />
+  							<p>
+  								<b>
+  									Nota: No funcionará debido a que ho hay un servidor.
+  								</b>
+  							</p>
+						</form>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/l.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/m.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p><b>16. Etiqueta: < Mark ></b><br> <br>
+					Define texto resaltado o marcado<br>
+					Atributos:Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.<br>
+					<br>
+					Por ejemplo:<br>
+					< p> <br>
+						< mark> <br>
+							Este texto esta marcado o resaltado. <br>
+						< /mark> <br>
+					< /p> <br>
+				 	<br> <br>
+					Resultado: <br>
+					<p>
+						<mark>
+							Este texto esta marcado o resaltado.
+						</mark>
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html5">
+			<p><b>17. Etiqueta: < meter ></b> <br> <br>
+					Representa una medida dentro de un rango conocido. Útil para representar medidas en diferentes situaciones, como uso de disco, memoria o ancho de banda, los resultados de un encuesta, la cantidad recaudada en una colecta, el número de registros coincidentes en una consulta, etc.<br>
+					Atributos:Value, Min, Max, Low, High, Optimun.<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Uso de la memoria RAM: < meter max="2048" value="547" title="Megabytes">< /meter>< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Uso de la memoria RAM: <meter max="2048" value="547" title="Megabytes"></meter></p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/n.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p><b>18. Etiqueta: < nav ></b><br> <br>
+					es un contenedor para enlaces de navegación, que se supone proveen formas de acceder a las secciones del sitio web, así como a documentos externos.<br>
+					Atributos: Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.<br>
+					<br>
+					Por ejemplo:<br>
+					< nav> <br>
+						< ul><br>
+							< li>< a href="#home">Inicio< /a>< /li><br>
+							< li>< a href="#cuerpo">¿Qué es HTML?< /a>< /li><br>
+						< /ul><br>
+					< /nav>
+				 	<br> <br>
+					Resultado: <br>
+					<nav>
+						<ul>
+							<li><a href="#home">Inicio</a></li>
+							<li><a href="#cuerpo">¿Qué es HTML?</a></li>
+						</ul>
+					</nav>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/o.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p><b>19. Etiqueta: < Output ></b><br>
+				Representa la salida de un cálculo o proceso, normalmente llevado a cabo por un programa.<br>
+				Atrinutos: for, name, form.<br>
+				Ejemplo:<br>
+				< form><br>
+        			< label>Valor 1:< /label><br>
+        			< input type="number" name="sum1" onchange="misalida.value=parseInt(sum1.value)+parseInt(<br>sum2.value)"> +<br>
+        			< label>Valor 2:< /label><br>
+        			< input type="number" name="sum2" onchange="misalida.value=parseInt(sum1.value)+parseInt(<br>sum2.value)"> =<br>
+        			< output name="misalida" >< /output><br>
+				< /form><br>
+				<br><br>
+				Resultado: <br>
+				<form>
+        			<label>Valor 1:</label>&nbsp;
+        			<input type="number" name="sum1" onchange="misalida.value=parseInt(sum1.value)+parseInt(sum2.value)"> +
+        			<label>Valor 2:</label>&nbsp;
+        			<input type="number" name="sum2" onchange="misalida.value=parseInt(sum1.value)+parseInt(sum2.value)"> =
+        			<output name="misalida" ></output>
+				</form>
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/p.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p><b>20. Etiqueta: < Progress ></b><br> <br>
+					Se utiliza para visualizar el progreso de una tarea.<br>
+					Atributos: max y value son sus atributos principales.<br>
+					<br>
+					Por ejemplo:<br>
+					< progress value="70" max="100">70 %< /progress>
+				 	<br> <br>
+					Resultado: <br>
+					<progress value="70" max="100">70 %</progress>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/q.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/r.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p><b>21. Etiqueta: < rp ></b> <br> <br>
+					Define una pronunciación de caracteres.<br>
+					Atributos: Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.<br>
+					<br>
+					Por ejemplo:<br>
+					< p>El < ruby>libro< rp> (< /rp>< rt>Sustantivo< /rt>< rp>)< /rp>< /ruby> < ruby>está< rp> (< /rp><br>< rt>Verbo< /rt>< rp>)< /rp>< /ruby> sobre la < ruby>mesa< rp> (< /rp>< rt>Sustantivo< /rt>< rp>)< /rp>< /ruby>.< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>El <ruby>libro<rp> (</rp><rt>Sustantivo</rt><rp>)</rp></ruby> <ruby>está<rp> (</rp><rt>Verbo</rt><rp>)</rp></ruby> sobre la <ruby>mesa<rp> (</rp><rt>Sustantivo</rt><rp>)</rp></ruby>.</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html5">
+			<p><b>22. Etiqueta: < rt ></b> <br> <br>
+					Define una pronunciación de caracteres.<br>
+					Atributos: Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.<br>
+					<br>
+					Por ejemplo:<br>
+					< ruby>Texto base< rp> (< /rp>< rt>Anotación< /rt>< rp>)< /rp></ ruby>
+				 	<br> <br>
+					Resultado: <br>
+					<ruby>Texto base<rp> (</rp><rt>Anotación</rt><rp>)</rp></ruby>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/s.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p><b>23. Etiqueta: < section ></b> <br>
+					Es un elemento de seccionamiento genérico, diseñado para contener una parte de un documento temáticamente definida.<br>
+					Atributos: Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.<br>
+					<br>
+					Por ejemplo:<br>
+					< h1>El extraño interior< /h1><br>
+					< section><br>
+					  < h2 id="none">Introducción< /h2><br>
+					  < p>Boris era un hombre muy solitario...< /p><br>
+					< /section>
+				 	<br> <br>
+					Resultado: <br>
+					<h1 id="none">El extraño interior</h1>
+					<section>
+					  <h2 id="none">Introducción</h2>
+					  <p>Boris era un hombre muy solitario...</p>
+					</section>
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html5">
+			<p><b>24. Etiqueta: < source ></b> <br>
+					Permite a los autores proveer diferentes versiones de un archivo en los elementos de medios (audio y video) y las imágenes (picture).<br>
+					Atributos: src,type, srcset,sizes, media.<br>
+					<br>
+					Por ejemplo:<br>
+					< audio controls><br>
+					  < source src="audio/audio.mp3" type="audio/mpeg"><br>
+					< /audio>
+				 	<br> <br>
+					Resultado: <br>
+					<audio controls>
+					  <source src="audio/audio.mp3" type="audio/mpeg">
+					</audio>
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html5">
+			<p><b>25. Etiqueta: < summary ></b> <br>
+					Representa un resumen, título o etiqueta para los contenidos de un elemento details.<br>
+					Atributos: Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.<br>
+					<br>
+					Por ejemplo:<br>
+					< details><br>
+						< summary>< b>Carl Sagan< /b>< /summary><br>
+						  < p>Carl Edward Sagan fue un astrónomo, astrofísico, cosmólogo, escritor y divulgador<br> científico estadounidense. Sagan publicó numerosos artículos científicos y <br>comunicaciones1 y fue autor, coautor o editor de más de una veintena de libros. Defensor<br> del pensamiento escéptico científico y del método científico, fue también pionero de<br> la exobiología, promotor de la búsqueda de inteligencia extraterrestre a través del<br> Proyecto SETI e impulsó el envío de mensajes a bordo de sondas espaciales,<br> destinados a informar a posibles civilizaciones extraterrestres acerca de la cultura<br> humana.< /p><br>
+					< /details><br><br>
+					Resultado: <br>
+					<details>
+					  <summary><b>Carl Sagan</b></summary>
+						  <p>Carl Edward Sagan fue un astrónomo, astrofísico, cosmólogo, escritor y divulgador científico estadounidense. Sagan publicó numerosos artículos científicos y comunicaciones1 y fue autor, coautor o editor de más de una veintena de libros. Defensor del pensamiento escéptico científico y del método científico, fue también pionero de la exobiología, promotor de la búsqueda de inteligencia extraterrestre a través del Proyecto SETI e impulsó el envío de mensajes a bordo de sondas espaciales, destinados a informar a posibles civilizaciones extraterrestres acerca de la cultura humana.</p>
+					</details>
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/t.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p><b>26. Etiqueta: < time ></b> <br>
+					Representa fechas, horas, desplazamientos de zonas horarias y duraciones.<br>
+					Atributos: Datatime.<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Nos casamos < time datetime="1982-10-06">el 6 de Octubre, allá por 1982< /time>.<br> 
+					< time datetime="1982-11-06">Un mes más tarde< /time> supimos que Brian estaba en camino.< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Nos casamos <time datetime="1982-10-06">el 6 de Octubre, allá por 1982</time>. <time datetime="1982-11-06">Un mes más tarde</time> supimos que Brian estaba en camino.</p>
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/u.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<img src="img/abc/v.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p><b>26. Etiqueta: < video ></b> <br>
+					Representa fechas, horas, desplazamientos de zonas horarias y duraciones.<br>
+					Atributos: Datatime.<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Nos casamos < time datetime="1982-10-06">el 6 de Octubre, allá por 1982< /time>.<br> 
+					< time datetime="1982-11-06">Un mes más tarde< /time> supimos que Brian estaba en camino.< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<video width="300" height="300" controls>
+						<source src="video/video.mp4" type="video/mp4">
+					</video>
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/w.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/x.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/y.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/z.jpg" id="img2">
+	<form>
+		<fieldset class="html5">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<h1 id="ETH">50 ETIQUETAS DE HTML</h1>
+	<br>
+	<img src="img/abc/a.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>1. Etiqueta: < a ></b> <br> <br>
+					Define un hipervínculo.<br>
+					Atributos: 	href, target, download, ping, rel, hreflang, type, referrerpolicy.<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Hola, disfruta de estos: <br> 
+						< a href="http://www.htmlquick.com/">tutoriales sobre HTML< /a> <br> 
+						en HTMLQuick.com <br>
+					< /p> 
+				 	<br> <br>
+					Resultado: <br>
+					<p>Hola, disfruta de estos: 
+						<a href="http://www.htmlquick.com/">tutoriales sobre HTML</a> 
+						en HTMLQuick.com
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>2. Etiqueta: < address ></b> <br> <br>
+					Provee información de contacto para el autor de la sección o documento, como una dirección postal, <br>
+					una dirección de correo electrónico, un número telefónico, una ciudad, un país, un código postal, etc.<br>
+					Atributos: 	href, target, download, ping, rel, hreflang, type, referrerpolicy.<br>
+					<br>
+					Por ejemplo:<br>
+					< address style="border: black 1px solid; margin-left: 10px; margin-right: 1000px; text-align: center;" > <br>
+  						Julio César Chica Rodríguez<br>
+  						< a href="mailto:rodriguez1995cesar@gmai.com">rodriguez1995cesar@gmai.com</a><br>
+  						San Miguel, El Salvador.<br>
+  						+503 6193-9440.
+					< /address>
+				 	<br> <br>
+					Resultado: <br>
+					<address style="border: black 1px solid; margin-left: 10px; margin-right: 1000px; text-align: center;">
+  						Julio César Chica Rodríguez<br>
+  						<a href="mailto:rodriguez1995cesar@gmai.com">rodriguez1995cesar@gmai.com</a><br>
+  						San Miguel, El Salvador.<br>
+  						+503 6193-9440.
+					</address>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/b.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>3. Etiqueta: < b ></b> <br> <br>
+					Define texto en negrita, <br>
+					Atributos: Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.<br>
+					<br>
+					Por ejemplo:<br>
+					< p>
+						Este texto no esta en negrita.
+						< b>Este texto SI esta en negrita< /b>
+					< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>
+						Este texto no esta en negrita. <br>
+						<b>Este texto SI esta en negrita</b>
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>4. Etiqueta: < blockquote ></b> <br> <br>
+					Permite a los autores insertar citas en forma de bloques de contenido, usualmente compuestas por un párrafo, un grupo <br>de párrafos o un conjunto de muchos otros elementos incluyendo imágenes (img), tablas (table) y artículos (article), <br> entre otros. <br> <br>
+					Atributos: cite y los comunes a todos los elementos.<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Nuevamente, podemos ver cómo la distancia y los recuerdos oscurecían su alma:< /p> <br>
+ 					< blockquote cite="http://www.georgerrmartin.com/grrm_book/a-game-of-thrones-a-song-of-ice-and-fire-book-one/"> <br>
+  						< p>No tenía un destino en mente. Solo quería cabalgar. Siguió el arroyo por un tiempo, escuchando el goteo del <br>agua congelada sobre las rocas, luego cortó camino a través de los campos hacia el camino del rey.</p> <br>
+					< /blockquote> <br>
+					< p>— Goerge R. R. Martin< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Nuevamente, podemos ver cómo la distancia y los recuerdos oscurecían su alma:</p>
+					<blockquote cite="http://www.georgerrmartin.com/grrm_book/a-game-of-thrones-a-song-of-ice-and-fire-book-one/">
+  						<p>No tenía un destino en mente. Solo quería cabalgar. Siguió el arroyo por un tiempo, escuchando el goteo del agua congelada sobre las rocas, luego cortó camino a través de los campos hacia el camino del rey.</p>
+					</blockquote>
+					<p>— Goerge R. R. Martin</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>5. Etiqueta: < br ></b> <br> <br>
+					Define un salto de línea.<br>
+					Atributos: Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos.<br>
+					<br>
+					Por ejemplo:<br>
+					< p> <br>
+						Este Texto NO posee un salto de línea. <br>
+					< /p> <br>
+					< p> <br>
+						Este texto < br> <br>
+						SI posee un salto de línea. <br>
+					< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>
+						Este Texto NO posee un salto de línea.
+					</p>
+					<p>
+						Este texto <br>
+						SI posee un salto de línea.
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>6. Etiqueta: < button ></b> <br> <br>
+					Define un botón clickleable.<br>
+					Atributos:<br>
+					- Los atributos del Type="button" son: disabled, form, name, type, value. <br>
+					- Los atributos del Type="Reset" son: autofocus, disabled, form, name, type, value. <br>
+					- Los atrinutos del Type="submit" son: autofocus, disabled, form, formaction, formenctype, formmethod, formtarget, formnovalidate, name, type, value. 
+					<br>
+					Por ejemplo:<br>
+					<h3>Ejemplo 1: type="button"</h3> <br>
+					< p> <br>
+						< label>Usuario:</ label> < input type="text" name=""> <br>
+						< label>Contraseña:</ label> < input type="password" name=""> <br>
+						< button type="button">Iniciar Sesion< /button> <br>
+					< /p> <br><br>
+					<h3>Ejemplo 2: type="Reset", <b>Nota:</b> Escriba en el campo de nombre y desmarque los checkbox y presione el boton "reset" para ver su acción.</h3> <br>
+					< form> <br>
+  						< p>Name: < input type="text" value="Julio Chica">< /p><br>
+  						< p>¿Qué desea hacer?< /p> <br>
+  						< p>< input type="checkbox" checked> Viajar< /p><br>
+  						< p>< input type="checkbox"> Practicar Deportes< /p><br>
+  						< p>< button type="reset">Reset< /button>< /p><br>
+					< /form><br><br>
+					<h3>Ejemplo 1: type="submit"</h3> <br>
+					< form><br>
+  						< p>Usuario: < input type="text" name="usuario">< /p><br>
+  						< p>Contraseña: < input type="password" name="pass">< /p><br>
+  						< p>< button type="submit">Enviar formulario</ button>< /p><br>
+					< /form>
+				 	<br> <br>
+					Resultado: <br>
+					<h3>Ejemplo 1: type="button"</h3>
+					<p>
+						<label>Usuario:</label> <input type="text" name="">
+						<label>Contraseña:</label> <input type="password" name="">
+						<button type="button">Iniciar Sesion</button>
+					</p>
+					<h3>Ejemplo 2: type="Reset", <b>Nota:</b> Escriba en el campo de nombre y desmarque los checkbox y presione el boton "reset" para ver su acción.</h3>
+					<form>
+  						<p>Name: <input type="text" value="Julio Chica"></p>
+  						<p>¿Qué desea hacer?</p>
+  						<p><input type="checkbox" checked> Viajar</p>
+  						<p><input type="checkbox"> Practicar Deportes</p>
+  						<p><button type="reset">Reset</button></p>
+					</form>
+					<h3>Ejemplo 1: type="submit"</h3>
+					<form>
+  						<p>Usuario: <input type="text" name="usuario"></p>
+  						<p>Contraseña: <input type="password" name="pass"></p>
+  						<p><button type="submit">Enviar formulario</button></p>
+					</form>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/c.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>7. Etiqueta: < caption ></b><br> <br>
+					Representa un título o leyenda para la tabla.<br>
+					Atributos: align es su atributo especifico pero cuenta con los atributos globales, comunes a todos los elementos.<br>
+					<br>
+					Por ejemplo:<br>
+					< table border="1"> <br>
+  						< caption class="titulo">Diámetro y distancia al Sol para los planetas interiores</caption><br>
+  							< tr> <br>
+    							< td id="vacia">< /td> <br>
+    							< th id="arriba">Mercurio< /th> <br>
+							    < th id="arriba">Venus< /th> <br>
+							    < th id="arriba">Tierra< /th> <br>
+							    < th id="arriba">Marte< /th> <br>
+  							< /tr> <br>
+  							< tr> <br>
+							    < th id="izquierda">Diámetro (km)< /th> <br>
+							    < td>4,878< /td> <br>
+							    < td>12,104< /td> <br>
+							    < td>12,756< /td> <br>
+							    < td>6,787< /td> <br>
+  							< /tr> <br>
+						  	< tr> <br>
+						    	< th id="izquierda">Distancia al Sol (millones de km)</th> <br>
+						    	< td>57< /td> <br>
+						    	< td>107< /td> <br>
+						    	< td>150< /td> <br>
+						    	< td>229< /td> <br>
+						  	< /tr> <br>
+					< /table> <br>
+				 	<br> <br>
+					Resultado: <br>
+					<table border="1">
+  						<caption class="titulo">Diámetro y distancia al Sol para los planetas interiores</caption>
+  							<tr>
+    							<td id="vacia"></td>
+    							<th id="arriba">Mercurio</th>
+							    <th id="arriba">Venus</th>
+							    <th id="arriba">Tierra</th>
+							    <th id="arriba">Marte</th>
+  							</tr>
+  							<tr>
+							    <th id="izquierda">Diámetro (km)</th>
+							    <td>4,878</td>
+							    <td>12,104</td>
+							    <td>12,756</td>
+							    <td>6,787</td>
+  							</tr>
+						  	<tr>
+						    	<th id="izquierda">Distancia al Sol (millones de km)</th>
+						    	<td>57</td>
+						    	<td>107</td>
+						    	<td>150</td>
+						    	<td>229</td>
+						  	</tr>
+					</table>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>8. Etiqueta: < cite ></b> <br> <br>
+					Marca una referencia a una fuente, o el autor de un texto citado.<br>
+					Atributos:  tittle, id, class, style, lang, dir.<br>
+					<br>
+					Por ejemplo:<br>
+					< p> < cite dir="lateral">Galileo< /cite> dijo: "... y sin embargo, se mueve." < /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p> <cite dir="lateral">Galileo</cite> dijo: "... y sin embargo, se mueve." </p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>9. Etiqueta: < code ></b> <br> <br>
+					representa a un fragmento de código de computadora, que puede ser cualquier texto legible para computadoras.<br>
+					Atributos: Este elemento no tiene atributos que no sean los atributos globales, comunes a todos los elementos<br>
+					<br>
+					Por ejemplo:<br>
+					< code> <br>
+ 						#include main() { for(;;) { printf ("Hello World!\n"); } } <br>
+					< /code>
+				 	<br> <br>
+					Resultado: <br>
+					<code>
+ 						#include main() { for(;;) { printf ("Hello World!\n"); } } 
+					</code>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>10. Etiqueta: < col ></b> <br> <br>
+					Especifica las propiedades de la columna para cada columna del elemento < colgroup>. <br>
+					Atributos: span, align*, char*, charoff*, valign*, width*. <br>
+					*No soportado en HTML5
+					<br> <br>
+					Por ejemplo:<br>
+					< table class="egt"> <br>
+  						< colgroup span="3">< /colgroup> <br>
+  						< colgroup> <br>
+    					< col> <br>
+    					< col span="2" style="background: rgba(255, 128, 0, 0.3); border: 1px solid rgba(200, 100, 0, 0.3);"> <br>
+ 					 	< /colgroup> <br>
+  						< tr> <br>
+    						< th>Ciudad< /th> <br>
+    						< th>Lengua< /th> <br>
+    						< th>Moneda< /th> <br>
+    						< th>Área< /th> <br>
+    						< th>Población< /th> <br>
+    						< th>Densidad< /th> <br>
+  						< /tr> <br>
+  						< tr> <br>
+						    < td>Moscou< /td> <br>
+						    < td>Ruso< /td> <br>
+						    < td>RUB< /td> <br>
+						    < td>2,511 km< sup>2< /sup></ td> <br>
+						    < td>11,503,501< /td> <br>
+						    < td>4,581.24/km< sup>2</ sup></ td> <br>
+  						< /tr> <br>
+					< /table>
+				 	<br> <br>
+					Resultado: <br>
+					<table class="egt">
+  						<colgroup span="3"></colgroup>
+  						<colgroup>
+    					<col>
+    					<col span="2" style="background: rgba(255, 128, 0, 0.3); border: 1px solid rgba(200, 100, 0, 0.3);">
+ 					 	</colgroup>
+  						<tr>
+    						<th>Ciudad</th>
+    						<th>Lengua</th>
+    						<th>Moneda</th>
+    						<th>Área</th>
+    						<th>Población</th>
+    						<th>Densidad</th>
+  						</tr>
+  						<tr>
+						    <td>Moscou</td>
+						    <td>Ruso</td>
+						    <td>RUB</td>
+						    <td>2,511 km<sup>2</sup></td>
+						    <td>11,503,501</td>
+						    <td>4,581.24/km<sup>2</sup></td>
+  						</tr>
+					</table>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>11. Etiqueta: < colgroup ></b> <br> <br>
+					Especifica un grupo de una o más columnas de una tabla.<br>
+					Atributos: span, align*, char*, charoff*, valign*, width*. <br>
+					*No soportado en HTML5
+					<br> <br><br>
+					<br>
+					Por ejemplo:<br>
+					< table class="egt"> <br>
+  						< colgroup span="3">< /colgroup> <br>
+  						< colgroup> <br>
+ 					 	< /colgroup> <br>
+  						< tr> <br>
+    						< th>Ciudad< /th> <br>
+    						< th>Lengua< /th> <br>
+    						< th>Moneda< /th> <br>
+    						< th>Área< /th> <br>
+    						< th>Población< /th> <br>
+    						< th>Densidad< /th> <br>
+  						< /tr> <br>
+  						< tr> <br>
+						    < td>Moscou< /td> <br>
+						    < td>Ruso< /td> <br>
+						    < td>RUB< /td> <br>
+						    < td>2,511 km< sup>2< /sup>< /td> <br>
+						    < td>11,503,501< /td> <br>
+						    < td>4,581.24/km< sup>2< /sup>< /td> <br>
+  						< /tr> <br>
+					< /table> 
+				 	<br> <br>
+					Resultado: <br>
+					<table class="egt">
+  						<colgroup span="3"></colgroup>
+  						<colgroup>
+ 					 	</colgroup>
+  						<tr>
+    						<th>Ciudad</th>
+    						<th>Lengua</th>
+    						<th>Moneda</th>
+    						<th>Área</th>
+    						<th>Población</th>
+    						<th>Densidad</th>
+  						</tr>
+  						<tr>
+						    <td>Moscou</td>
+						    <td>Ruso</td>
+						    <td>RUB</td>
+						    <td>2,511 km<sup>2</sup></td>
+						    <td>11,503,501</td>
+						    <td>4,581.24/km<sup>2</sup></td>
+  						</tr>
+					</table>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/d.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>12. Etiqueta: < dd ></b> <br> 
+					Representa a un valor en una lista de descripciones.<br>
+					<br>
+					Atributos: id, class, style, etc<br>
+					<br>
+					Por ejemplo:<br>
+					< h3>Glosario de términos electrónicos< /h3> <br>
+					< dl> <br>
+				  		< dt>Batería< /dt> <br>
+				  		< dd>Un banco de celdas individuales conectadas para proveer el voltage requerido. < /dd> <br>
+				  		< dt>Algoritmo< /dt> <br>
+				  		< dd>Un conjunto de reglas matemáticas aplicadas a una entrada. Generalmente utilizados para <br>describir a una sección de código de computadora que lleva a cabo una función específica.< /dd> <br>
+				  		< dt>Amplificador< /dt> <br>
+				  		< dd>Un dispositivo electrónico que genera una señal de alto poder basado en la información <br>provista por una señal de bajo poder.< /dd> <br>
+					< /dl>
+				 	<br> <br>
+					Resultado: <br>
+					<h3>Glosario de términos electrónicos</h3>
+					<dl>
+				  		<dt>Batería</dt>
+				  		<dd>Un banco de celdas individuales conectadas para proveer el voltage requerido. </dd>
+				  		<dt>Algoritmo</dt>
+				  		<dd>Un conjunto de reglas matemáticas aplicadas a una entrada. Generalmente utilizados para describir a una sección de código de computadora que lleva a cabo una función específica.</dd> 
+				  		<dt>Amplificador</dt>
+				  		<dd>Un dispositivo electrónico que genera una señal de alto poder basado en la información provista por una señal de bajo poder.</dd>
+					</dl>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>13. Etiqueta: < del ></b> <br> 
+					Define un texto que ha sido definido de un Mdocument.<br>
+					<br>
+					Atributos: id, class, style, tittle, dir, lang, cite, datatime. <br>
+					<br>
+					Por ejemplo:<br>
+					< p> <br>
+       					El agua es insípida < del>y húmeda, </ del> < ins>inodora e incolora.< /ins> <br>
+   					< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>
+       					El agua es insípida <del>y húmeda,</del> <ins>inodora e incolora.</ins>
+   					</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>14. Etiqueta: < dfn ></b> <br> 
+					Define un término de una definición.<br>
+					<br>
+					Atributos: id, class, style, tittle, dir, lang. <br>
+					<br>
+					Por ejemplo:<br>
+					< p> <br>
+     					El < dfn>HTML< /dfn> es un lenguaje de marcado para hipertextos.
+					< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>
+     					El <dfn>HTML</dfn> es un lenguaje de marcado para hipertextos.
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>15. Etiqueta: < div ></b> <br> 
+					Es un contenedor genérico sin un significado semántico en particular. Se utiliza comúnmente en el desarrollo de documentos con propósitos estilísticos.<br>
+					<br>
+					Atributos: id, class, style, aling, titlle.<br>
+					<br>
+					Por ejemplo:<br>
+					< h3>Tim Berners-Lee< /h3><br>
+					< div style="color: #040; font-style: italic">< br>
+  						< p>Timothy "Tim" John Berners-Lee es un científico de la computación británico, conocido por ser 
+  						< br>el padre de la Web. Estableció la primera comunicación entre un cliente y un servidor usando 
+  						< br>el protocolo HTTP en noviembre de 1989.< /p><br>
+  						< p>En octubre de 1994 fundó el Consorcio de la World Wide Web (W3C) con sede en el MIT, para <br>supervisar y estandarizar el desarrollo de las tecnologías sobre las que se fundamenta la Web y <br>que permiten el funcionamiento de Internet.< /p><br>
+					< /div>
+				 	<br> <br>
+					Resultado: <br>
+					<h3>Tim Berners-Lee</h3>
+					<div style="color: #040; font-style: italic">
+  						<p>Timothy "Tim" John Berners-Lee es un científico de la computación británico, conocido por ser el padre de la Web. Estableció la primera comunicación entre un cliente y un servidor usando el protocolo HTTP en noviembre de 1989.</p>
+  						<p>En octubre de 1994 fundó el Consorcio de la World Wide Web (W3C) con sede en el MIT, para supervisar y estandarizar el desarrollo de las tecnologías sobre las que se fundamenta la Web y que permiten el funcionamiento de Internet.</p>
+					</div>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>16. Etiqueta: < dl ></b><br> 
+					Define una lista definición.<br>
+					<br>
+					Atributos: Este elemento solo incluye los atributos globales (id, tittle, style, etc).<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Cryptids of Cornwall:< /p><br>
+					< dl><br>
+    					< dt>Beast of Bodmin< /dt><br>
+    					< dd>A large feline inhabiting Bodmin Moor.< /dd><br>
+    					< dt>Morgawr< /dt><br>
+    					< dd>A sea serpent.< /dd><br>
+    					< dt>Owlman< /dt><br>
+    					< dd>A giant owl-like creature.< /dd><br>
+					< /dl>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Cryptids of Cornwall:</p>
+					<dl>
+    					<dt>Beast of Bodmin</dt>
+    					<dd>A large feline inhabiting Bodmin Moor.</dd>
+
+    					<dt>Morgawr</dt>
+    					<dd>A sea serpent.</dd>
+
+    					<dt>Owlman</dt>
+    					<dd>A giant owl-like creature.</dd>
+					</dl>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>17. Etiqueta: < dt ></b><br> 
+					Define un término (un item) en una lista de definición.<br>
+					<br>
+					Atributos: Este elemento solo incluye los atributos globales (id, tittle, style, etc).
+					<br>
+					Por ejemplo:<br>
+					< p>Please use the following paint colors for the new house:< /p><br>
+					< dl><br>
+					    < dt>Denim (semigloss finish)< /dt><br>
+					    < dd>Ceiling< /dd><br>
+					    < dt>Denim (eggshell finish)< /dt><br>
+					    < dt>Evening Sky (eggshell finish)< /dt><br>
+					    < dd>Layered on the walls< /dd><br>
+					< /dl>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Please use the following paint colors for the new house:</p>
+					<dl>
+					    <dt>Denim (semigloss finish)</dt>
+					    <dd>Ceiling</dd>
+					    <dt>Denim (eggshell finish)</dt>
+					    <dt>Evening Sky (eggshell finish)</dt>
+					    <dd>Layered on the walls</dd>
+					</dl>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/e.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>18. Etiqueta: < em ></b><br> 
+					Define énfasis en un texto.<br>
+					<br>
+					Atributos: Este elemento solo incluye los atributos globales (id, tittle, style, etc).<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Hola < em>Esto es un enfasis< /em>< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Hola <em>Esto es un enfasis</em></p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/f.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>19. Etiqueta: < fieldset ></b> <br> 
+					Es un contenedor genérico sin un significado semántico en particular. Se utiliza comúnmente en el desarrollo de documentos con propósitos estilísticos.<br>
+					<br>
+					Atributos: id, class, style, aling, titlle.<br>
+					<br>
+					Por ejemplo:<br>
+					< form><br>
+						< fieldset id="eje1"><br>
+				    		< legend>Información personal< /legend><br>
+				    		< p>Nombre completo: < input type="text" name="nombrecompleto">< /p><br>
+				    		< p>Dirección: < input type="text" name="direccion">< /p><br>
+				    		< p>Teléfono: < input type="tel" name="telefono">< /p><br>
+				  		< /fieldset> <br>
+				  		< fieldset id="eje1"><br>
+				    		< legend>Información laboral< /legend><br>
+				    		< p>Compañía: < input type="text" name="compania">< /p> <br>
+				    		< p>Dirección: < input type="text" name="direcciontrabajo">< /p> <br>
+				    		< p>Teléfono: < input type="tel" name="telefonotrabajo">< /p> <br>
+				  		< /fieldset> <br>
+					< /form> <br>
+				 	<br> <br>
+					Resultado: <br>
+					<form>
+						<fieldset id="eje1">
+				    		<legend>Información personal</legend>
+				    		<p>Nombre completo: <input type="text" name="nombrecompleto"></p>
+				    		<p>Dirección: <input type="text" name="direccion"></p>
+				    		<p>Teléfono: <input type="tel" name="telefono"></p>
+				  		</fieldset> <br>
+				  		<fieldset id="eje1">
+				    		<legend>Información laboral</legend>
+				    		<p>Compañía: <input type="text" name="compania"></p>
+				    		<p>Dirección: <input type="text" name="direcciontrabajo"></p>
+				    		<p>Teléfono: <input type="tel" name="telefonotrabajo"></p>
+				  		</fieldset>
+					</form>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>20. Etiqueta: < form ></b><br> 
+					Define un formulario HTML.<br>
+					<br>
+					Atributos: accept-charset, action, autocomplete, enctype, method, name, novalidate, target, accept
+					<br>
+					Por ejemplo:<br>
+					< form id="fejemplo"><br>
+						< fieldset id="fejemplo"><br>
+				    		< p>Nombre completo: < input type="text" name="nombrecompleto">< /p><br>
+				    		< p>Dirección: < input type="text" name="direccion">< /p><br>
+				    		< p>Teléfono: < input type="tel" name="telefono">< /p><br>
+				  		< /fieldset> <br>
+					< /form>
+				 	<br> <br>
+					Resultado: <br>
+					<form id="fejemplo">
+						<fieldset id="fejemplo">
+				    		<p>Nombre completo: <input type="text" name="nombrecompleto"></p>
+				    		<p>Dirección: <input type="text" name="direccion"></p>
+				    		<p>Teléfono: <input type="tel" name="telefono"></p>
+				  		</fieldset> <br>
+					</form>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/g.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/h.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>21. Etiqueta: < h1 a h6 ></b><br> 
+					Define encabezados HTML.<br>
+					<br>
+					Atributos: Este elemento solo incluye los atributos globales (id, tittle, style, etc)..<br>
+					<br>
+					Por ejemplo:<br>
+					< h1 id="none">Título 1< /h1><br>
+					< h2>Título 4< /h2><br>
+					< h3>Título 3< /h3><br>
+					< h4>Título 4< /h4><br>
+					< h5>Título 5< /h5><br>
+					< h6>Título 6< /h6>
+				 	<br> <br>
+					Resultado: <br>
+					<h1 id="none">Título 1</h1>
+					<h2>Título 4</h2>
+					<h3>Título 3</h3>
+					<h4>Título 4</h4>
+					<h5>Título 5</h5>
+					<h6>Título 6</h6>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>22. Etiqueta: < head ></b><br> 
+					Es el contenedor de una serie de elementos que proveen metadatos para el documento. Estos <br>metadatos puede especificar el título (elemento title), el juego de caracteres, el autor, la<br> descripción o parabras clave del documento (elemento meta), una hoja de estilo o información<br> relacional (elemento link) o declaraciones de estilo incrustadas (elemento style), entre otros.<br>
+					<br>
+					Atributos: Este elemento solo incluye los atributos globales (id, tittle, style, etc).<br>
+					<br>
+					Por ejemplo:<br>
+					< !DOCTYPE html> <br>
+						< html> <br>
+						  < head> <br>
+						    < title>La muralla< /title> <br>
+						  < /head> <br>
+						  < body><br>
+						    < h1 id="none">Cierren el túnel!< /h1><br>
+						    < p>La guardia nocturna prevalecerá...< /p><br>
+						  < /body><br>
+						< /html>
+				 	<br> <br>
+					Resultado: <br>
+					<!DOCTYPE html>
+						<html>
+						  <head>
+						    <title>La muralla</title>
+						  </head>
+						  <body>
+						    <h1 id="none">Cierren el túnel!</h1>
+						    <p>La guardia nocturna prevalecerá...</p>
+						  </body>
+						</html>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>23. Etiqueta: < hr ></b><br> 
+					Reporesenta una división temática o un quiebre en el texto. Este quiebre puede dividir al<br>contenido en dos fragmentos con tópicos diferentes o dos escenas en una novela.<br>
+					<br>
+					Atributos: align*, noshade*, size*, width*. <br>
+					<b>*No son soportados en HTML5</b>
+					<br>
+					Por ejemplo:<br>
+					< h1 id="none">Medios de comunicación< /h1><br>
+					< p>La radio (entendida como radiofonía o radiodifusión, términos no estrictamente sinónimos)<br>es un medio de comunicación que se basa en el envío de señales de audio a través de ondas de<br> radio, si bien el término se usa también para otras formas de envío de audio a distancia<br> como la radio por Internet.< /p><br>
+					< hr ><br>
+					< p>La televisión es un sistema para la transmisión y recepción de imágenes en movimiento y<br>sonido a distancia que emplea un mecanismo de difusión. La transmisión puede ser efectuada por<br>medio de ondas de radio, por redes de televisión por cable, televisión por satélite o IPTV,<br> de los que existen en modalidades abierta y paga.< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<h1 id="none">Medios de comunicación</h1>
+					<p>La radio (entendida como radiofonía o radiodifusión, términos no estrictamente sinónimos) es un medio de comunicación que se basa en el envío de señales de audio a través de ondas de radio, si bien el término se usa también para otras formas de envío de audio a distancia como la radio por Internet.</p>
+					<hr>
+					<p>La televisión es un sistema para la transmisión y recepción de imágenes en movimiento y sonido a distancia que emplea un mecanismo de difusión. La transmisión puede ser efectuada por medio de ondas de radio, por redes de televisión por cable, televisión por satélite o IPTV, de los que existen en modalidades abierta y paga.</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>24. Etiqueta: < html ></b> <br> 
+					Contituye la raíz de todo documento HTML bien formado y se supone que encierre a todos los <br> demás elementos entre sus etiquetas.
+					<br>
+					Atributos: lang, manifest*, id, class, style.<br>
+					<b>* No soportado en HTML5</b>
+					<br>
+					Por ejemplo:<br>
+					< !DOCTYPE html> <br>
+					< html> <br>
+  						< head> <br>
+    						< title>Ejemplo  etiqueta < HTML >< /title> <br>
+  						< /head> <br>
+  						< body> <br>
+    						< h1 id="none">Bienvenido!< /h1> <br>
+    						< p>BGracias por visitarnos...< /p> <br>
+  						< /body> <br>
+					< /html>
+				 	<br> <br>
+					Resultado: <br>
+					<!DOCTYPE html>
+					<html>
+  						<head>
+    						<title>Ejemplo  etiqueta < HTML ></title>
+  						</head>
+  						<body>
+    						<h1 id="none">Bienvenido!</h1>
+    						<p>Gracias por visitarnos...</p>
+  						</body>
+					</html>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/i.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>25. Etiqueta: < i ></b> <br> 
+					Representa texto en un modo o voz diferente, o desplazado de la prosa normal. Este elemento <br>puede ser utilizado para etiquetar denominaciones taxonómicas, términos técnicos, frases<br>idiomáticas de otras lenguas, transliteraciones, ideas, o nombres de navíos en textos <br>occidentales.<br>
+					<br>
+					Atributos: Este elemento solo incluye los atributos globales (id, tittle, style, etc).<br>
+					Por ejemplo:<br>
+					< p> <br>
+						< i>Lactuca sativa< /i> <br>
+						o lechuga, es una planta herbácea miembro de la familia < i>Lactuca< /i>, propia de las<br> regiones semitempladas que se cultiva con fines alimentarios. <br>
+					< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>
+						<i>Lactuca sativa</i> 
+						o lechuga, es una planta herbácea miembro de la familia <i>Lactuca</i>, propia de las regiones semitempladas que se cultiva con fines alimentarios.
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>26. Etiqueta: < iframe ></b><br> 
+					Representa un contexto de navegación anidado, lo que es básicamente un documento anidado en el documento actual.<br>
+					<br>
+					Atributos: src, srcdoc, name, sandbox, allow, allowfullscreen, allowpaymentrequest,<br> allowusermedia, width, height, referrerpolicy, seamless*, longdesc*, align*, frameborder*,<br> marginheight*, marginwidth*, scrolling* .<br>
+					<b>* No soportado en HTML5</b>
+					<br>
+					Por ejemplo:<br>
+					< h2>Comentarios< /h2><br>
+					< p>Demain dijo:< /p><br>
+					< iframe style="border: 0; margin: 0" srcdoc="< p>El hecho es que nunca puedes estar <br>quot;seguro quot; de esto...< /p>" sandbox>< /iframe> <br>
+					< p>Jhonny dijo:< /p> <br>
+					< iframe style="border: 0; margin: 0" srcdoc="< p>Si continúas con esa actitud inyectaré un<br>virus en tu artículo!< /p>< p>Te lo advierto, soy un hacker profesional!< /p>" sandbox>< /< iframe>
+				 	<br> <br>
+					Resultado: <br>
+					<h2>Comentarios</h2>
+					<p>Demain dijo:</p>
+					<iframe style="border: 0; margin: 0" srcdoc="<p>El hecho es que nunca puedes estar &quot;seguro&quot; de esto...</p>" sandbox></iframe>
+					<p>Jhonny dijo:</p>
+					<iframe style="border: 0; margin: 0" srcdoc="<p>Si continúas con esa actitud inyectaré un virus en tu artículo!</p><p>Te lo advierto, soy un hacker profesional!</p>" sandbox></iframe>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>27. Etiqueta: < img ></b> <br> 
+					Representa a una imagen, lo cual es un recurso externo que puede ser incrustado en el cuerpo de un documento. <br> La ubicación de dicho recurso externo debe especificarse en el atributo src.<br>
+					<br>
+					Atributos: alt, src, srcset, sizes, crossorigin, usemap, ismap, width, height, referrerpolicy, decoding, longdesc*, align*, border*, hspace*, vspace*, name*. <br>
+					<b>*No compatible con HTML5.</b>
+					<br><br>
+					Por ejemplo:<br>
+					< h3>Soy programador.< /h3><br>
+					< img src="img/prog.jpg" id="img3"><br>
+				 	<br> <br>
+					Resultado: <br>
+					<h3>Soy programador.</h3>
+					<img src="img/prog.jpg" id="img3">
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>28. Etiqueta: < input ></b><br> 
+					Se usa para crear controles interactivos para formularios basados en la web, que reciban datos del usuario..<br>
+					<br>
+					Atributos:<br>
+					1. input <mark>type hidden:</mark> autocomplete.<br><br>
+
+					2. input <mark>type text:</mark> autocomplete, list, maxlength, minlength, pattern, placeholder, readonly, required and size<br><br>
+					
+					3. input <mark>type search:</mark> autocomplete, list, maxlength, minlength, pattern, placeholder, required, size. <br><br>
+					
+					4. input <mark>type tel:</mark> autocomplete, list, maxlength, minlength, pattern, placeholder, readonly, size, list, selectionStart, selectionEnd, selectionDirection, y value.<br><br>
+					
+					5. input <mark>type url:</mark> autocomplete, list, maxlength, minlength, pattern, placeholder, readonly, required, size, list, value, selectionEnd y selectionDirection<br><br>
+					
+					6. input <mark>type email:</mark> autocomplete, list, maxlength, minlength, multiple, pattern, placeholder, readonly, y size<br><br>
+					
+					7. input <mark>type password:</mark> autocomplete, autofocus, disable, defaultvalue, inputmode,
+					maxlength, minlength, name, pattern, placeholder, readonly, required, size.<br><br>
+					
+					8. input <mark>type date:</mark> autocomplete, list, readonly, step,list, value, valueAsDate y valueAsNumber.<br><br>
+					
+					9. input <mark>type month:</mark> autocomplete, list, readonly, y step.<br><br>
+					
+					10. input <mark>type week:</mark> autocomplete, list, readonly, step. value, valueAsDate, valueAsNumber, y list.<br><br>
+					
+					11. input <mark>type time:</mark> autocomplete, list, readonly, and step.<br><br>
+					
+					12. input <mark>type datatime-local:</mark> autocomplete, list, readonly, step, list, value y valueAsNumber.<br><br>
+					
+					13. input <mark>type number:</mark> max, min, placeholder, readonly y step.<br><br>
+					
+					14. input <mark>type range:</mark> autocomplete, list, max, min y step.<br><br>
+
+					15. input <mark>type color:</mark> autocomplete y list.<br><br>
+
+					16. input <mark>type checkbox:</mark> cheked, value y indeterminate.<br><br>
+
+					17. input <mark>type radio:</mark> checked and value.<br><br>
+
+					18. input <mark>type file:</mark> required, accept, capture, files, multiple, files and value.<br>
+
+					19. input <mark>type submit:</mark> autocomplete, formaction, formenctype, formmethod, formnovalidate y formtarget.<br>
+
+					20. input <mark>type image:</mark> alt, src, width, height, formaction, formenctype, formmethod, formnovalidate, formtarget.<br>
+
+					21. input <mark>type reset:</mark> type and value.<br>
+
+					22. input <mark>type button:</mark> autocomplete, disabled, autofocus, form, formenctype, formaction, formmethod, formnovalidate, formtarget, name, type, value.<br>
+
+					<br>
+					Por ejemplo:<br>
+					< label>1. Este input esta oculto --->< /label> < input type="hidden"> <br><br>
+
+					< label>2. Este input es para introduccir texto --->< /label> < input type="text"><br><br>
+					
+					< label>3. Este input es para buscar --->< /label> < input type="search">< button>Buscar< /button>(no funcional)<br><br>
+					
+					< label>4. Este input es usado para numeros de telefonos --->< /label> < input type="tel" 
+					pattern="[0-9]{4}-[0-9]{4}"> (formato ####-####)<br><br>
+					
+					< label>5. Este input es utilizado para que el usuario brinde o edite una dirección url --->< /l abel> < input type="url" name="url" id="url" placeholder="https://facebook.com" pattern="https://.*" size="30" required> <br><br>
+					
+					< label>6. permiten al usuario introducir y editar una dirección de correo electrónico, o, si el atributo multiple es especificado, una lista de direcciones de correo electrónico. --->< /label> < input type="email" id="email" size="30" required> <br><br>
+					
+					< label>7. Este input se usa para ocultar una contraseña --->< /label> < input type="password"> <br><br>
+					
+					< label>8. Este unput es usado para introducir fechas --->< /label> < input type="date" id="start" min="1970-01-01" max="2100-12-31"> <br><br>
+					
+					< label>9. Crea campos de entrada que le permitan al usuario ingresar un mes y un año --->< /label> < input type="month" id="start" name="start" min="2018-03" value="2018-05"> (formato: ####-##, año-mes.) <br><br>
+					
+					< label>10. Crea campos de entrada que permitan ingresar fácilmente un año más el número de semana--->< /label> < input type="week" name="week" id="camp-week" min="2018-W18" max="2018-W26" required> <br><br>
+					
+					< label>11. Crea campos de entrada diseñados para permitir al usuario ingresar fácilmente un tiempo (horas y minutos, y opcionalmente segundos). --->< input type="time" min="09:00" max="18:00" required> <br><br>
+					
+					< label>12. Crea controles de entrada que permitan al usuario ingresar fácilmente una fecha y una hora. --->< /label> < input type="datetime-local" id="meeting-time" name="meeting-time" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00"><br> <br>
+					
+					< label>13. Se utilizan para permitir que el usuario ingrese un número. Incluyen validación incorporada para rechazar entradas no numéricas --->< input type="number" min="10" max="100"><br><br>
+					
+					< label>14. Permite que el usuario especifique un valor numérico comprendido entre un valor mínimo y máximo --->< /label> < input type="range"> <br><br>
+					
+					< label>15. Proporciona un elemento de interfaz de usuario que permite a los usuarios especificar un color --->< /label> < input type="color"> <br><br>
+
+					< label>16. Es un elemento de entrada que te permite insertar un vector o array de valores.< /label><br>
+					< label>< input type="checkbox" id="cbox1" value="first_checkbox"> Este es mi primer checkbox< /label><br>
+					< input type="checkbox" id="cbox2" value="second_checkbox"> < label for="cbox2">Este es mi segundo checkbox< /label> <br><br>
+
+					< label>17. Son colecciones de botones "de radio" que describen un conjunto de opciones relacionadas.< /label><br>
+					< h3>Seleccione su OS movil:< /h3><br>
+					< div><br>
+					  < input type="radio" value="iOS" checked><br>
+					  < label for="huey">iOS< /label><br>
+					< /div><br>
+
+					< div><br>
+					  < input type="radio" value="Android"><br>
+					  < label for="dewey">Android< /label><br>
+					< /div><br>
+					<br>
+
+					< label>18. Sirve para que el usuario elija uno o más archivos del almacenamiento de su dispositivo --->< /label> < input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg"> <br><br>
+
+					< label>19. Se representan como botones. Cuando se produce el evento de clic (generalmente porque el usuario hizo clic en el botón), el agente de usuario intenta enviar el formulario al servidor< /label><br> < input type="submit" value="Enviar"> <br><br>
+
+					< label>20. Se usan para crear botones de envío gráficos, es decir, botones de envío que toman la forma de una imagen en lugar de texto< /label><br>< input type="image" id="image" alt="Login" src="img/entrar.jpg" width="100"> <br><br>
+
+					< label>21.representa un botón que, cuando es presionado, restaura todos los campos del formulario < /label><br> 
+					< div><br>
+
+				        < label for="id">Usuario:< /label><br>
+				        < input type="text" id="id" name="id" /> <br>
+				        < input type="reset" value="Reset"><br>
+				    < /div>
+				    <br><br>
+					
+					< label>22. Es una versión específica del elemento < input >, que se usa para crear un botón en <br>el que se puede hacer click sin ningún valor por defecto, es decir, no tiene un <br>comportamiento predeterminado< /label> <br>
+					< input type="button" value="Click">
+				 	<br> <br>
+					Resultado: <br>
+					<label>1. Este input esta oculto ---></label> <input type="hidden"> <br><br>
+
+					<label>2. Este input es para introduccir texto ---></label> <input type="text"><br><br>
+					
+					<label>3. Este input es para buscar ---></label> <input type="search"><button>Buscar</button>(no funcional)<br><br>
+					
+					<label>4. Este input es usado para numeros de telefonos ---></label> <input type="tel" 
+					pattern="[0-9]{4}-[0-9]{4}"> (formato ####-####)<br>
+					<label>5. Este input es utilizado para que el usuario brinde o edite una dirección url ---></label> <input type="url" name="url" id="url"
+       					placeholder="https://facebook.com"
+       					pattern="https://.*" size="30"
+       					required> <br><br>
+					
+					<label>6. permiten al usuario introducir y editar una dirección de correo electrónico, o, si el atributo multiple es especificado, una lista de direcciones de correo electrónico. ---></label> <input type="email" id="email" size="30" required> <br><br>
+					
+					<label>7. Este input se usa para ocultar una contraseña ---></label> <input type="password"> <br><br>
+					
+					<label>8. Este unput es usado para introducir fechas ---></label> <input type="date" id="start" min="1970-01-01" max="2100-12-31"> <br><br>
+					
+					<label>9. Crea campos de entrada que le permitan al usuario ingresar un mes y un año ---></label> <input type="month" id="start" name="start" min="2018-03" value="2018-05"> (formato: ####-##, año-mes.) <br><br>
+					
+					<label>10. Crea campos de entrada que permitan ingresar fácilmente un año más el número de semana---></label> <input type="week" name="week" id="camp-week" min="2018-W18" max="2018-W26" required> <br><br>
+					
+					<label>11. Crea campos de entrada diseñados para permitir al usuario ingresar fácilmente un tiempo (horas y minutos, y opcionalmente segundos). ---><input type="time" min="09:00" max="18:00" required> <br><br>
+					
+					<label>12. Crea controles de entrada que permitan al usuario ingresar fácilmente una fecha y una hora. ---></label> <input type="datetime-local" id="meeting-time" name="meeting-time" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00"><br> <br>
+					
+					<label>13. Se utilizan para permitir que el usuario ingrese un número. Incluyen validación incorporada para rechazar entradas no numéricas ---><input type="number" min="10" max="100"><br><br>
+					
+					<label>14. Permite que el usuario especifique un valor numérico comprendido entre un valor mínimo y máximo ---></label> <input type="range"> <br><br>
+					
+					<label>15. Proporciona un elemento de interfaz de usuario que permite a los usuarios especificar un color ---></label> <input type="color"> <br><br>
+
+					<label>16. Es un elemento de entrada que te permite insertar un vector o array de valores.</label><br>
+					<label><input type="checkbox" id="cbox1" value="first_checkbox"> Este es mi primer checkbox</label><br>
+					<input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Este es mi segundo checkbox</label> <br><br>
+
+					<label>17. Son colecciones de botones "de radio" que describen un conjunto de opciones relacionadas.</label>
+					<h3>Seleccione su OS movil:</h3>
+					<div>
+					  <input type="radio" value="iOS" checked>
+					  <label for="huey">iOS</label>
+					</div>
+
+					<div>
+					  <input type="radio" value="Android">
+					  <label for="dewey">Android</label>
+					</div>
+					<br>
+
+					<label>18. Sirve para que el usuario elija uno o más archivos del almacenamiento de su dispositivo ---></label> <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg"> <br><br>
+
+					<label>19. Se representan como botones. Cuando se produce el evento de clic (generalmente porque el usuario hizo clic en el botón), el agente de usuario intenta enviar el formulario al servidor</label><br> <input type="submit" value="Enviar"> <br><br>
+
+					<label>20. Se usan para crear botones de envío gráficos, es decir, botones de envío que toman la forma de una imagen en lugar de texto</label><br><input type="image" id="image" alt="Login" src="img/entrar.jpg" width="100"> <br><br>
+
+					<label>21.representa un botón que, cuando es presionado, restaura todos los campos del formulario </label><br> 
+					<div>
+
+				        <label for="id">Usuario:</label>
+				        <input type="text" id="id" name="id" />
+
+				        <input type="reset" value="Reset">
+
+				    </div>
+				    <br><br>
+					
+					<label>22. Es una versión específica del elemento < input >, que se usa para crear un botón en <br>el que se puede hacer click sin ningún valor por defecto, es decir, no tiene un <br>comportamiento predeterminado</label> <br>
+					<input type="button" value="Click">
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>29. Etiqueta: < ins ></b> <br> 
+					Representa contenido que ha sido agregado al documento.<br>
+					<br>
+					Atributos: cite, datetime.<br>
+					<br>
+					Por ejemplo:<br>
+					< p> El agua es insipida,< /p> <br>
+					< ins> < p> Y además inodora e incolora. < /p> < /ins>
+				 	<br> <br>
+					Resultado: <br>
+					<p> El agua es insipida,</p>
+					<ins> <p> Y además inodora e incolora. </p> </ins>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/j.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<br>
+	<img src="img/abc/k.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>30. Etiqueta: < kbd ></b> <br> 
+					Representa una entrada del usuario que puede ser hecha por teclado o cualquier otro medio, como mouse, pantalla táctil o comandos de voz..<br>
+					<br>
+					Atributos: id, class, style, aling, titlle.<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Presiona < kbd>Ctrl< /kbd> y mantenla presionada mientras presionas < kbd>C< /kbd><br>. Luego pasa al segundo documento y presiona < kbd>Ctrl< /kbd> y mantenla presionada mientras<br> presionas < kbd>V< /kbd>.< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Presiona <kbd>Ctrl</kbd> y mantenla presionada mientras presionas <kbd>C</kbd>. Luego pasa al segundo documento y presiona <kbd>Ctrl</kbd> y mantenla presionada mientras presionas <kbd>V</kbd>.</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/l.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p>31. Etiqueta: < label > <br> 
+					Representa una etiqueta para un elemento en una interfaz de usuario.<br>
+					<br>
+					Atributos: id, class, style, aling, title, accesskey, for, form.<br>
+					<br>
+					Por ejemplo:<br>
+					< label>Introduce tu correo< /label>< input type="email" name="">
+				 	<br> <br>
+					Resultado: <br>
+					<label>Introduce tu correo</label><input type="email" name="">
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>32. Etiqueta: < legend ></b><br> 
+					Define un título para los elementos < fieldset>, < figure>, o < details>.<br>
+					<br>
+					Atributos: id, class, style, aling, title, lang, dir.<br>
+					<br>
+					Por ejemplo:<br>
+					< form><br>
+						< fieldset><br>
+							< legend><br>
+								Este es un título para el fieldset<br>
+							< /legend><br>
+							< p><br>
+								Este es el párrafo del formulario<br>
+							< /p><br>
+						< /fieldset><br>
+					< /form><br>
+				 	<br> <br>
+					Resultado: <br>
+					<form>
+						<fieldset>
+							<legend>
+								Este es un título para el fieldset
+							</legend>
+							<p>
+								Este es el párrafo del formulario
+							</p>
+						</fieldset>
+					</form>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>33. Etiqueta: < li ></b><br> 
+					Representa a un ítem en una lista, ya sea ordenada (elemento ol) o no ordenada (elemento ul).<br>
+					<br>
+					Atributos: value, type* <br>
+					<b>*No soportado en HTML5</b>
+					<br>
+					Por ejemplo:<br>
+					< h3>Receta básica de pan para comenzar a usar tu máquina</h3>
+					< h3>Ingredientes:< /h3><br>
+					< ul><br>
+					  < li>1 taza de agua tibia< /li><br>
+					  < li>2 cucharadas de azúcar blanco< /li><br>
+					  < li>1 cubo de levadura fresca< /li><br>
+					  < li>1/4 taza de aceite vegetal< /li><br>
+					  < li>3 tazas de harina 000< /li><br>
+					  < li>1 cucharada de sal< /li><br>
+					< /ul>
+				 	<br> <br>
+					Resultado: <br>
+					<h3>Receta básica de pan para comenzar a usar tu máquina</h3>
+					<h3>Ingredientes:</h3>
+					<ul>
+					  <li>1 taza de agua tibia</li>
+					  <li>2 cucharadas de azúcar blanco</li>
+					  <li>1 cubo de levadura fresca</li>
+					  <li>1/4 taza de aceite vegetal</li>
+					  <li>3 tazas de harina 000</li>
+					  <li>1 cucharada de sal</li>
+					</ul>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>34. Etiqueta: < link ></b><br> 
+					Provee información relacional acerca del documento, como versiones alternativas, autores, licencias de copyright, íconos, etc.<br>
+					<br>
+					Atributos: href, crossorigin, rel, media, integrity, hreflang type, referrerpolicy, size, as color, scope*, updateviacache*, workertype*, charset* y rev* <br>
+					<b>*No conpatible con HTML</b>
+					<br>
+					Por ejemplo:<br>
+					< !DOCTYPE html><br>
+					< html><br>
+					< head><br>
+						< title>Link< /title><br>
+						< link rel="Peliculas" href="www.hackstore.net"><br>
+					< /head><br>
+					< body><br>
+					< p>Peliculas en Hackstore.net< /p><br>
+					< /body><br>
+					< /html>
+				 	<br> <br>
+					Resultado: <br>
+					<!DOCTYPE html>
+					<html>
+					<head>
+						<title>Link</title>
+						<link rel="Peliculas" href="www.hackstore.net">
+					</head>
+					<body>
+					<p>Peliculas en Hackstore.net</p>
+					</body>
+					</html>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/m.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>35. Etiqueta: < menu ></b><br> 
+					Es un contenedor genérico sin un significado semántico en particular. Se utiliza comúnmente en el desarrollo de documentos con propósitos estilísticos.<br>
+					<br>
+					Atributos: id, class, style, aling, titlle, dir, lang.<br>
+					<br>
+					Por ejemplo:<br>
+					< menu><br>
+					  < li>primer elemento < /li><br>
+					  < li>segundo elemento < /li><br>
+					  < li>tercer elemento < /li><br>
+					< /menu> 
+				 	<br> <br>
+					Resultado: <br>
+					<menu>
+					  <li>primer elemento </li>
+					  <li>segundo elemento </li>
+					  <li>tercer elemento </li>
+					</menu> 	
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>36. Etiqueta: < meta ></b><br> 
+					Provee metadatos que no pueden ser expresados con otros elementos del encabezado .<br>
+					<br>
+					Atributos: name, http-equiv, content y charset.<br>
+					<br>
+					Por ejemplo:<br>
+					< !DOCTYPE html><br>
+					< html><br>
+					< head><br>
+					  < title>Derrocando a un imperio intergaláctico< /title><br>
+					  < meta charset="utf-8"><br>
+					  < meta name="author" content="Luke Skywalker"><br>
+					  < meta name="author" content="Darth Vader"><br>
+					  < meta name="description" content="Guía completa para derrocar a un imperio intergaláctico,<br>con representaciones y ejemplos prácticos"><br>
+					< /head><br>
+					< body><br>
+						< p><br>
+							< b><br>
+								Lastimosamente < meta > no es un elemento que sea visual en HTML.<br>
+							< /b><br>
+						< /p><br>
+					< /body><br>
+					< /html><br>
+				 	<br> <br>
+					Resultado: <br>
+					<!DOCTYPE html>
+					<html>
+					<head>
+					  <title>Derrocando a un imperio intergaláctico</title>
+					  <meta charset="utf-8">
+					  <meta name="author" content="Luke Skywalker">
+					  <meta name="author" content="Darth Vader">
+					  <meta name="description" content="Guía completa para derrocar a un imperio intergaláctico, con representaciones y ejemplos prácticos">
+					</head>
+					<body>
+						<p>
+							<b>
+								Lastimosamente < meta > no es un elemento que sea visual en HTML.
+							</b>
+						</p>
+					</body>
+					</html>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/n.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>37. Etiqueta: < noscript ></b><br> 
+					Es un contenedor para contenido alternativo a un bloque script que es mostrado cuando el soporte para programas se encuentra ausente o deshabilitado..<br>
+					<br>
+					Atributos: Este elemento solo incluye los atributos globales (id, tittle, style, etc).<br>
+					<br>
+					Por ejemplo:<br>
+					< h3>Calcular el producto:< /h3><br>
+				    < input type="number" id="numero1" name="numero1" onchange="calcularProducto()"> x<br>
+				    < input type="number" id="numero2" name="numero2" onchange="calcularProducto()"><br>
+				    < output id="resultado">< /output><br>
+				    < script><br>
+				      function calcularProducto() {<br>
+				        var numero1 = parseFloat(document.getElementById('numero1').value),<br>
+				            numero2 = parseFloat(document.getElementById('numero2').value),<br>
+				            outputElement = document.getElementById('resultado');<br>
+				        if(isNaN(numero1) || isNaN(numero2)) {<br>
+				          outputElement.value = 'Error de entrada!';<br>
+				        } else {<br>
+				          outputElement.value = numero1 * numero2;<br>
+				        }<br>
+				      }<br>
+				    < /script><br>
+				    < noscript><br>
+				      < input type="submit" value="Calcular"><br>
+				    < /noscript><br>
+				 	<br> <br>
+					Resultado: <br>
+					<h3>Calcular el producto:</h3>
+				    <input type="number" id="numero1" name="numero1" onchange="calcularProducto()"> x
+				    <input type="number" id="numero2" name="numero2" onchange="calcularProducto()">
+				    <output id="resultado"></output>
+				    <script>
+				      function calcularProducto() {
+				        var numero1 = parseFloat(document.getElementById('numero1').value),
+				            numero2 = parseFloat(document.getElementById('numero2').value),
+				            outputElement = document.getElementById('resultado');
+				        if(isNaN(numero1) || isNaN(numero2)) {
+				          outputElement.value = 'Error de entrada!';
+				        } else {
+				          outputElement.value = numero1 * numero2;
+				        }
+				      }
+				    </script>
+				    <noscript>
+				      <input type="submit" value="Calcular">
+				    </noscript>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/o.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>38. Etiqueta: < object ></b><br> 
+					Define un objeto embebido.<br>
+					<br>
+					Atributos: data, type, typemustmatch,name, usemap, form, width y height.<br>
+					<br>
+					Por ejemplo:<br>
+					< object data="object-ejemplo.html" style="width: 100%">< /object>
+				 	<br> <br>
+					Resultado: <br><br>
+					<object data="object-ejemplo.html" style="width: 100%"></object>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>39. Etiqueta: < ol ></b> <br> 
+					Representa una lista ordenada de ítems que, en contraste con las listas no ordenadas (elemento ul),<br> produce un significado diferente si el orden de los ítems es alterado. Los ítems de<br> ambas listas, ordenadas y no ordenadas, son representados por el elemento li.<br>
+					<br>
+					Atributos: type, reserved y start.<br>
+					<br>
+					Por ejemplo:<br>
+					< b>< p>Procedimiento para ingresar a la BIOS de su computadora:< /p>< /b><br>
+					< ol><br>
+					  < li>Encienda la computadora.< /li><br>
+					  < li>Presione la tecla < kbd>F12< /kbd> repetidamente al encender la pc.< /li><br>
+					  < li>Configure a su gusto.< /li><br>
+					< /ol>
+				 	<br> <br>
+					Resultado: <br>
+					<b><p>Procedimiento para ingresar a la BIOS de su computadora:</p></b>
+					<ol>
+					  <li>Encienda la computadora.</li>
+					  <li>Presione la tecla <kbd>F12</kbd> repetidamente al encender la pc.</li>
+					  <li>Configure a su gusto.</li>
+					</ol>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>40. Etiqueta: < optgroup ></b><br> 
+					Representa un grupo de opciones (option) temáticamente definido, que forma parte de un control select.<br>
+					<br>
+					Atributos: disabled y label.<br>
+					<br>
+					Por ejemplo:<br>
+					< p><br>
+					  Elije un procesador:<br>
+					  	< select><br>
+					    	< optgroup label="Intel"><br>
+					      		< option>Core i9-10980XE Extreme Edition< /option><br>
+					      		< option>Core i9-10900X Serie X< /option><br>
+					      		< option>Core i9-10920X Serie X< /option><br>
+					      		< option>Core i9-10940X Serie X< /option><br>
+					    	< /optgroup><br>
+					    	< optgroup label="AMD"><br>
+					      		< option>Ryzen 7< /option><br>
+					      		< option>Ryzen 5< /option><br>
+					      		< option>Ryzen 3< /option><br>
+					      		< option>Ryzen 7 3780U</ option><br>
+					    	< /optgroup><br>
+						< /select><br>
+					< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>
+					  Elije un procesador:
+					  	<select>
+					    	<optgroup label="Intel">
+					      		<option>Core i9-10980XE Extreme Edition</option>
+					      		<option>Core i9-10900X Serie X</option>
+					      		<option>Core i9-10920X Serie X</option>
+					      		<option>Core i9-10940X Serie X</option>
+					    	</optgroup>
+					    	<optgroup label="AMD">
+					      		<option>Ryzen 7</option>
+					      		<option>Ryzen 5</option>
+					      		<option>Ryzen 3</option>
+					      		<option>Ryzen 7 3780U</option>
+
+					    	</optgroup>
+						</select>
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>41. Etiqueta: < option ></b> <br> 
+					Define una opción en una lista desplegable.<br>
+					<br>
+					Atributos: disabled, label, selected, value.<br>
+					<br>
+					Por ejemplo:<br>
+					< p><br>
+					  Elije un procesador:<br>
+					  	< select><br>
+					      		< option>Core i9-10980XE Extreme Edition< /option><br>
+					      		< option>Core i9-10900X Serie X< /option><br>
+					      		< option>Core i9-10920X Serie X< /option><br>
+					      		< option>Core i9-10940X Serie X< /option><br>
+						< /select><br>
+					< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>
+					  Elije un procesador:
+					  	<select>
+					      		<option>Core i9-10980XE Extreme Edition</option>
+					      		<option>Core i9-10900X Serie X</option>
+					      		<option>Core i9-10920X Serie X</option>
+					      		<option>Core i9-10940X Serie X</option>
+						</select>
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/p.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>42. Etiqueta: < p ></b><br> 
+					Representa un párrafo.<br>
+					<br>
+					Atributos: id, class, style, aling, titlle.<br>
+					<br>
+					Por ejemplo:<br>
+					< h1 id="none">20,000 leguas de viaje submarino< /h1><br>
+					< p><br>
+						El año 1866 quedó caracterizado por un extraño acontecimiento, por un fenómeno<br> inexplicable e inexplicado que nadie, sin duda, ha podido olvidar. Sin hablar de los<br> rumores que agitaban a las poblaciones de los puertos y que sobreexcitaban a los<br> habitantes del interior de los continentes, el misterioso fenómeno suscitó una particular<br> emoción entre los hombres del mar. Negociantes, armadores, capitanes de barco,<br> skippers y masters de Europa y de América, oficiales de la marina de guerra de todos los<br> países y, tras ellos, los gobiernos de los diferentes Estados de los dos continentes,<br> manifestaron la mayor preocupación por el hecho.<br>
+					< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<h1 id="none">20,000 leguas de viaje submarino</h1>
+					<p>
+						El año 1866 quedó caracterizado por un extraño acontecimiento, por un fenómeno inexplicable e inexplicado que nadie, sin duda, ha podido olvidar. Sin hablar de los rumores que agitaban a las poblaciones de los puertos y que sobreexcitaban a los habitantes del interior de los continentes, el misterioso fenómeno suscitó una particular emoción entre los hombres del mar. Negociantes, armadores, capitanes de barco, skippers y masters de Europa y de América, oficiales de la marina de guerra de todos los países y, tras ellos, los gobiernos de los diferentes Estados de los dos continentes, manifestaron la mayor preocupación por el hecho.
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>43. Etiqueta: < param ></b> <br> 
+					Es un contenedor genérico sin un significado semántico en particular. Se utiliza comúnmente en el desarrollo de documentos con propósitos estilísticos.<br>
+					<br>
+					Atributos: data, type, typemustmatch, name, usemap, form, width y height.<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Imagen de HTML< /p><br>
+					< object data="img/ghtml.jpg" id="img3"><br>
+						< param name="calidad" value="high"><br>
+					< /object>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Imagen de HTML</p>
+					<object data="img/ghtml.jpg" id="img3">
+						<param name="calidad" value="high">
+					</object>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>44. Etiqueta: < pre ></b><br> 
+					Representa un bloque de texto preformateado donde, en contraste con otros elementos, los espacios continuos y los quiebres de línea son respetados.<br>
+					<br>
+					Atributos: Este elemento solo incluye los atributos globales (id, tittle, style, etc).<br>
+					<br>
+					Por ejemplo:<br>
+					< pre>Estos son algunos procesadores intel de 9na Generación:<br>
+
+						- Core i9-10980XE Extreme Edition<br>
+
+						- Core i9-10900X Serie X<br>
+
+						- Core i9-10920X Serie X<br>
+					< /pre>
+				 	<br> <br>
+					Resultado: <br>
+					<pre>Estos son algunos procesadores intel de 9na Generación:
+
+	- Core i9-10980XE Extreme Edition
+
+	- Core i9-10900X Serie X
+
+	- Core i9-10920X Serie X
+					</pre>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/q.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>45. Etiqueta: < q ></b> <br> 
+					Permite a los autores insertar citas en forma de líneas cortas de texto, a diferencia de blockquote que permite citar bloques de contenido.<br>
+					<br>
+					Atributos: cite.<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Personalmente no creo que < q>...de lo contrario tendré que encontrar otra solución!< /q> para el asunto< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Personalmente no creo que <q>...de lo contrario tendré que encontrar otra solución!</q> para el asunto</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/r.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/s.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>46. Etiqueta: < s ></b> <br> 
+					Representa contenido que ya no es relevante o preciso.<br>
+					<br>
+					Atributos: Este elemento solo incluye los atributos globales (id, tittle, style, etc).<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Antes:< s>$49,99 + envío!< /s>< /p><br>
+					< p>Ahora: $39,99 - Envío gratis!< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Antes:<s>$49,99 + envío!</s></p>
+					<p>Ahora: $39,99 - Envío gratis!</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>47. Etiqueta: < samp ></b> <br> 
+					Representa una salida o reporte de un programa.<br>
+					<br>
+					Atributos: Este elemento solo incluye los atributos globales (id, tittle, style, etc).<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Cuando ingresé el comando, la computadora respondió < samp>Error: comando no encontrado< /samp>. Estoy perdido...< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Cuando ingresé el comando, la computadora respondió <samp>Error: comando no encontrado</samp>. Estoy perdido...</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>48. Etiqueta: < script ></b><br> 
+					Permite a los autores insertar programas del lado cliente o bloques de datos en un documento.<br>
+					<br>
+					Atributos: src, type, nomodule, async, defer, crossorigin, integrity, referrerpolicy y charset.<br>
+					<br>
+					Por ejemplo:<br>
+					< canvas id="micanva" width="250" height="100">TU NAVEGADOR NO SOPORTA CANVA</ canvas><br>
+					< script type="text/javascript"; charset="utf-8"><br>
+						var canvas =  document.getElementById('micanva');<br>
+						var ctx = canvas.getContext("2d");<br>
+						ctx.fillRect(150,0,100,100);<br>
+					< /script>
+				 	<br> <br>
+					Resultado: <br>
+					<canvas id="micanva" width="250" height="100">TU NAVEGADOR NO SOPORTA CANVA</canvas>
+					<script type="text/javascript"; charset="utf-8">
+						var canvas =  document.getElementById('micanva');
+						var ctx = canvas.getContext("2d");
+						ctx.fillRect(150,0,100,100);
+					</script>
+					</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>49. Etiqueta: < select ></b><br> 
+					Representa un control que permite al usuario elegir de entre un número de opciones.<br>
+					<br>
+					Atributos: autocomplete, autofocus, disabled, form, multiple, name, required y size.<br>
+					<br>
+					Por ejemplo:<br>
+					< p><br>
+					    Deporte favorito:<br>
+					    < select><br>
+					      < option>Fútbol< /option><br>
+					      < option>Críquet< /option><br>
+					      < option>Básquetbol< /option><br>
+					      < option>Hockey< /option><br>
+					      < option>Tenis< /option><br>
+					    < /select><br>
+					    < input type="submit" value="Enviar"><br>
+					< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>
+					    Deporte favorito:
+					    <select>
+					      <option>Fútbol</option>
+					      <option>Críquet</option>
+					      <option>Básquetbol</option>
+					      <option>Hockey</option>
+					      <option>Tenis</option>
+					    </select>
+					    <input type="submit" value="Enviar">
+					</p>
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>50. Etiqueta: < small ></b><br> 
+					Define texto en pequeño.<br>
+					<br>
+					Atributos: id, class, style, aling, titlle.<br>
+					<br>
+					Por ejemplo:<br>
+					< h1>¡Hola, es un gusto que visites esta web!< /h1><br>
+					< p>Esperamos nos visites siempre< /p><br>
+					< small>Al entrar aceptas nuestras cookies< /small><br>
+				 	<br> <br>
+					Resultado: <br>
+					<h1 id="none">¡Hola, es un gusto que visites esta web!</h1>
+					<p>Esperamos nos visites siempre</p>
+					<small>Al entrar aceptas nuestras cookies</small>
+				</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>51. Etiqueta: < span ></b><br> 
+					Es un contenedor genérico sin un significado semántico en particular.<br>
+					<br>
+					Atributos: title, dir, lang, class, id, dir.<br>
+					<br>
+					Por ejemplo:<br>
+					< div><br>
+					  < h4>Ejemplo de div y span< /h4><br>
+					   < p><br>
+					    Esto es un párrafo dentro de un div,<br>
+					     < span> y esto un span dentro de un párrafo. < /span><br>
+   						< /p><br>
+					 < /div>
+				 	<br> <br>
+					Resultado: <br>
+					<div style="border: 1px dotted blue;">
+					  <h4>Ejemplo de div y span </h4>
+					   <p>
+					    Esto es un párrafo dentro de un div,
+					     <span style="color: red;"> y esto un span dentro de un párrafo. </span>
+   						</p>
+					 </div>
+				</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>52. Etiqueta: < strong ></b><br> 
+					Define un texto en negrita.<br>
+					<br>
+					Atributos: title, style.<br>
+					<br>
+					Por ejemplo:<br>
+					< p><br>
+					    < em>El dinero< /em> es importante pero < strong>la salud< /strong> lo es más.<br>
+					< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>
+					    <em>El dinero</em> es importante pero <strong>la salud</strong> lo es más.
+					</p>
+				</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>52. Etiqueta: < style ></b><br> 
+					Define el estilo para las etiquetas, ya sea en cada etiqueta, en en head o en CCS.<br>
+					<br>
+					Atributos: title, lang, dir, type, media<br>
+					<br>
+					Por ejemplo:<br>
+					< p style="color: red;"> Texto en rojo < /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p style="color: red;"> Texto en rojo </p>
+				</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>53. Etiqueta: < sub ></b><br> 
+					Define un subíndice.<br>
+					<br>
+					Atributos: Este elemento sólo incluye los atributos globales.<br>
+					<br>
+					Por ejemplo:<br>
+					< p>La fórmula química de agua: H< sub>2< /sub>O< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>La fórmula química de agua: H<sub>2</sub>O</p>
+				</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>53. Etiqueta: < sup ></b><br> 
+					Define un superíndice.<br>
+					<br>
+					Atributos: Este elemento sólo incluye los atributos globales.<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Notas al pie< sup>1< /sup>< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Notas al pie<sup>1</sup></p>
+				</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/t.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>54. Etiqueta: < table ></b><br>
+				Define una tabla<br>
+				Atributos: aling*, bgcolor*, border*, cellpadding*, cellspacing*, frame*, rules*,summary*, width* <br>
+				<b>*no compatible con HTML5</b> <br><br>
+			   <p>55. Etiqueta: < td ></p><br>
+			   Define una celda en una tabla<br>
+			   	Atributos: COLSPAN, ROWSPAN, HEADERS, SCOPE*,AXIS*, ABBR*, ALIGN*, CHAR*, CHARO*,VALIGN*, WIDTH*, HEIGHT*, NOWRAP*, BGCOLOR*<br>
+				<b>*No compatible con HTML5</b><br><br>
+				<b>56. Etiqueta: < tbody ></b><br>
+			   Define uel cuerpo de una tabla<br>
+			   	Atributos: ALIGN*,CHAR*,CHAROFF*,VALIGN*<br>
+				<b>*No compatible con HTML5</b><br>
+					<br>
+					<br>
+					Atributos: Este elemento sólo incluye los atributos globales.<br>
+					<br>
+					Por ejemplo:<br>
+					<pre style="size: 200%">
+					< table border="2">
+					  < thead>
+					    < tr>
+					      < th>Cliente</th>
+					      < th>Operación</th>
+					      < th>Monto</th>
+					      < th>Balance</th>
+					    < /tr>
+					  < /thead>
+					  < tbody>
+					    < tr>
+					      < td>Jhon Doe< /td>
+					      < td>Depósito< /td>
+					      < td>$2,500.00< /td>
+					      < td>$2,500.00< /td>
+					    < /tr>
+					    < tr>
+					      < td>Mark Finn< /td>
+					      < td>Depósito< /td>
+					      < td>$5,000.00< /td>
+					      < td>$5,000.00< /td>
+					    < /tr>
+					    < tr>
+					      < td>Sam Smith< /td>
+					      < td>Depósito< /td>
+					      < td>$3,000.00< /td>
+					      < td>$3,000.00< /td>
+					    < /tr>
+					  < /tbody>
+					< /table>
+					</pre>
+					<br> <br>
+					Resultado: <br>
+					<table id="ejemplotabla" border="2">
+					  <thead>
+					    <tr>
+					      <th>Cliente</th>
+					      <th>Operación</th>
+					      <th>Monto</th>
+					      <th>Balance</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td>Jhon Doe</td>
+					      <td>Depósito</td>
+					      <td>$2,500.00</td>
+					      <td>$2,500.00</td>
+					    </tr>
+					    <tr>
+					      <td>Mark Finn</td>
+					      <td>Depósito</td>
+					      <td>$5,000.00</td>
+					      <td>$5,000.00</td>
+					    </tr>
+					    <tr>
+					      <td>Sam Smith</td>
+					      <td>Depósito</td>
+					      <td>$3,000.00</td>
+					      <td>$3,000.00</td>
+					    </tr>
+					  </tbody>
+					</table>
+				</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>57. Etiqueta: < textarea ></b><br> 
+					Define un control de entrada de múltiples líneas<br>
+					<br>
+					Atributos: AUTOCOMPLETE, AUTOFOCUS, COLS, DIR. NAME, DISABLED, FORM, MAXLENGTH, MINLENGTH, NAME, PLACEHOLDER, READONLY, REQUIRED, ROWS, WRAP.<br>
+					<br>
+					Por ejemplo:<br>
+					<pre>
+		< form>
+		  < p>Mensaje para el autor:< /p>
+		  < p>< textarea name="mensaje" placeholder="Comparte tu opinión con el autor!">< /textarea>< /p>
+		  < p>< input type="submit" value="Enviar mensaje">< /p>
+		< /form>
+					</pre>
+				 	<br> <br>
+					Resultado: <br>
+					<form>
+					  <p>Mensaje para el autor:</p>
+					  <p><textarea name="mensaje" placeholder="Comparte tu opinión con el autor!"></textarea></p>
+					  <p><input type="submit" value="Enviar mensaje"></p>
+					</form>
+				</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/u.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>58. Etiqueta: < u ></b><br> 
+					Define un anotaciones no textuales.<br>
+					<br>
+					Atributos: Este elemento sólo incluye los atributos globales.<br>
+					<br>
+					Por ejemplo:<br>
+					< p>Cancer, también conocido como tumor < u>malino< /u>, es un grupo de < u>efermedades< /u><br> que involucran al crecimiento anormal de células con el potencial de invadir o desplazarse a<br> otras partes del cuerpo. No todos los tumores son cencerígenos; los tumores benignos no se<br> desplazan a otras partes del cuerpo. Los síntomas y signos < u>pocibles< /u> incluyen: un<br> nuevo nódulo, abnormal bleeding, una tos anormal, pérdida de peso inexplicable, y un<br> cambio en el tránsito intestinal, entre otros. Mientras que estos síntomas pueden indicar<br> cáncer también pueden ocurrir debido a otros < u>prolemas< /u>. Existen más de 100 tipos < u><br>digerentes< /u> de cáncer conocidos que afectan a los humanos.< /p>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Cancer, también conocido como tumor <u>malino</u>, es un grupo de <u>efermedades</u> que involucran al crecimiento anormal<br> de células con el potencial de invadir o desplazarse a otras partes del cuerpo. No todos los<br> tumores son cencerígenos; los tumores benignos no se desplazan a otras partes del cuerpo.<br> Los síntomas y signos <u>pocibles</u> incluyen: un nuevo nódulo, abnormal bleeding, una tos anormal,<br> pérdida de peso inexplicable, y un cambio en el tránsito intestinal, entre otros.<br> Mientras que estos síntomas pueden indicar cáncer también pueden ocurrir debido a otros <u>prolemas</u>.<br> Existen más de 100 tipos <u>digerentes</u> de cáncer conocidos que afectan a los humanos.</p>
+				</p>
+		</fieldset>
+	</form>
+	<br>
+	<form>
+		<fieldset class="html">
+			<p><b>60. Etiqueta: < ul ></b><br> 
+					Representa una lista no ordenada.<br>
+					Atributos: COMPACT*, TYPE*
+					<b>*No compatibles en HTML5.</b><br>
+					<br>
+					Por ejemplo:<br>
+					< p>Compras del fin de semana< /p><br>
+					< ul><br>
+						< li>Café< /li><br>
+						< li>Huevos< /li><br>
+						< li>Frijoles< /li><br>
+					< /ul>
+				 	<br> <br>
+					Resultado: <br>
+					<p>Compras del fin de semana</p>
+					<ul>
+						<li>Café</li>
+						<li>Huevos</li>
+						<li>Frijoles</li>
+					</ul>
+				</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/v.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p><b>61. Etiqueta: < var ></b><br> 
+					Representa una variable.<br>
+					Atributos: COMPACT*, TYPE*
+					<b>*No compatibles en HTML5.</b>
+					<br>
+					Por ejemplo:<br>
+					< p>La función genera una variable llamada < var>temp< /var> y la utiliza para intercambiar<br> los valores de los parámetros < var>param1< /var> y < var>param2< /var>.< /p><br>
+				 	<br> <br>
+					Resultado: <br>
+					<p>La función genera una variable llamada <var>temp</var> y la utiliza para intercambiar los valores de los parámetros <var>param1</var> y <var>param2</var>.</p>
+				</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/w.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/x.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/y.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br>
+	<img src="img/abc/z.jpg" id="img2">
+	<form>
+		<fieldset class="html">
+			<p>
+				No se agrego con esta letra ninguna, debido a que no existe una etiqueta con dicha inicial
+				o no se encontraron ejemplos funcionales.
+			</p>
+		</fieldset>
+	</form>
+	<br><br>
+	<footer id="pie">
+		&copy. Derechos Reservados, Técnicas de Programación para internet. <br>
+		Desarrollado por: Julio César Chica Rodríguez.
+	</footer>
+</body>
+</html>
